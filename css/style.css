@@ -1,0 +1,240 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+html{ 
+    scroll-behavior: smooth; 
+} 
+body{ 
+    font-family: 'Livvic', sans-serif; 
+                                                 
+} 
+ul, ol{ 
+    list-style-type: none; 
+    padding-left: 0; 
+} 
+a{ 
+    text-decoration: none; 
+} 
+.container{ 
+    max-width: 1130px; 
+    margin: 0 auto; 
+    padding: 0 10px; 
+}
+.header{
+  
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    margin-left: 30px;
+    color: #000;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.nav__item a{
+    color: black;
+    font-size: 18px;
+}
+.nav__item2 a{
+    color: black;
+    font-size: 18px;
+}
+.nav__item2{
+    display: flex;
+padding: 20px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;      border-radius: 5px;
+background: #167526;
+margin-left: 30px;
+color: #000;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+/*hero*/
+.hero{
+    background-color: #a61919;
+    
+}
+.hero__box2{
+    display: flex;
+}
+.hero__box{
+    margin-top: 151px;
+    margin-left: 51px;
+}
+.hero__title{
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+margin-top: 321px;
+font-weight: 500;
+line-height: normal;
+}
+.hero__title1{
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 60px;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero__btn{
+    border-radius: 8px;
+background: #167526;
+margin-top: 42px;
+padding: 18px 25px;
+border: none;
+}
+/*hero2*/
+.hero2__box2{
+    display: flex;
+}
+.hero2__box{
+    width: 572px;
+height: 574px;
+flex-shrink: 0;border-radius: 20px;
+background: #770613;
+margin-top: 75.22px;
+margin-left: 100px;
+}
+.hero2__title{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64.8px; /* 140.87% */
+    padding-top: 40px;
+}
+.hero2__text{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 18.259px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.388px; /* 150% */
+    margin-top: 60.61px;
+}
+.hero2__inp{
+    border-radius: 6.521px;
+    padding: 22px 27px;
+    color: #FFFFFF;
+    background-color: #89363d;
+    margin-top: 26px;
+    margin-left: 82px;
+    width: 406.909px;
+height: 67.818px;
+flex-shrink: 0;
+border: none;
+}
+.hero2__inp1{
+    border-radius: 6.521px;
+    padding: 22px 27px;
+    color: #FFFFFF;
+    background-color: #89363d;
+    margin-top: 37px;
+    margin-left: 82px;
+    width: 406.909px;
+height: 67.818px;
+flex-shrink: 0;
+border: none;
+}
+.hero2__btn{
+    border-radius: 6.521px;
+background: #167526;
+box-shadow: -1.3042px -1.3042px 1.3042px 0px rgba(0, 0, 0, 0.09);
+padding: 22px 118px;
+margin-top: 44px;
+margin-left: 82px;
+
+color: #FFF;
+color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 18.259px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.388px; /* 150% */
+text-transform: uppercase;
+}
+/*hero3*/
+.hero3{
+    background-image: url('../img/Rectangle\ 16.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero3__img{
+    margin-top: 228px;
+    margin-left: 99px;
+    margin-bottom: 152px;
+}
+.hero3__box{
+    display: flex;
+}
+/*hero*/
+.hero4__text{
+    color: #000;
+font-family: Roboto Slab;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.5px; /* 152.273% */
+}
+.hero4__text1{
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.5px; /* 152.273% */
+    margin-top: 141px;
+    margin-left: 50px;
+}
+.hero4__box{
+    display: flex;
+    margin-top: 100px;
+}
+.hero4__img{
+    margin-left: 50px;
+
+}
+.hero4__img1{
+    margin-top: 141px;
+    margin-left: 163px;
+}
+.hero4__box1{
+    width: 578px;
+height: 454px;
+}
+/*hero5*/
+.hero5{
+    background-image: url('../img/Frame\ 15.png');
+}
